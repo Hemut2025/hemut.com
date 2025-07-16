@@ -1,0 +1,16 @@
+FAVICON REPLACEMENT INSTRUCTIONS
+
+To replace the default favicon with your Hemut logo:
+
+1. Create a 16x16, 32x32, and 48x48 pixel version of your Hemut logo (preferably with a transparent background)
+
+2. Use an online favicon generator tool like https://www.favicon-generator.org/ or https://realfavicongenerator.net/ to convert your image into an .ico file
+
+3. Replace the existing public/favicon.ico file with your new one
+
+4. The favicon is already properly linked in the HTML with:
+   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+5. You've also backed up the original favicon as favicon-original.ico in case you need it
+
+Note: For best results across all devices, you may want to create additional favicon sizes and formats (PNG, Apple touch icons, etc.) 
