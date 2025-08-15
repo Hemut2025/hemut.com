@@ -33,6 +33,7 @@ const CTA = () => {
                 Book a Demo
               </Button>
             </a>
+            {/*
             <a
               href="https://app.hemut.com"
               target="_blank"
@@ -46,6 +47,7 @@ const CTA = () => {
                 See Beta <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </a>
+            */}
           </div>
         </div>
       </div>

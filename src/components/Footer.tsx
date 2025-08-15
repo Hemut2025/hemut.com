@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-hemut-darkblue border-t border-hemut-blue/20">
       <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-hemut-yellow mr-3 mt-0.5" />
                 <span className="text-hemut-offwhite/70">
-                  2051 3rd Street, San Francisco, CA 94103
+                  2210 Harrison Ave, Rockford, IL 61104
                 </span>
               </div>
               <div className="flex items-center">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="mx-auto">
             <h3 className="text-white font-bold text-lg mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
@@ -91,7 +91,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Resources 
           <div>
             <h3 className="text-white font-bold text-lg mb-6">Resources</h3>
             <ul className="space-y-3">
@@ -137,6 +137,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          */}
 
           {/* Newsletter */}
           <div>

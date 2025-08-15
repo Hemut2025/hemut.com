@@ -5,18 +5,18 @@ const pricingPlans = [
   {
     name: "Starter",
     description: "Starting tier for small fleets",
-    price: "$50",
+    price: "$100",
     unit: "per truck per month",
     features: [
       "Automatic Load Booking",
       "Full Driver/Dispatcher Communication",
       "Live Load Tracking & Alerts",
       "ELD Telematics & Driver Logs",
-      "Email & Messaging Support",
+      "Email & Messaging Support"
     ],
     cta: "Get Started",
-    popular: false,
-  },
+    popular: false
+  }
   // {
   //   name: "Professional",
   //   description: "Comprehensive solution for growing fleets",

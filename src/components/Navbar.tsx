@@ -39,12 +39,14 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
+            {/* See Beta button removed for now
             <Button
               variant="outline"
               className="border-hemut-yellow text-hemut-yellow hover:bg-hemut-yellow hover:text-hemut-darkblue"
             >
               See Beta
             </Button>
+            */}
           </a>
           <a
             href="https://form.typeform.com/to/kwmV357x"

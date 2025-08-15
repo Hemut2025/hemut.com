@@ -71,12 +71,12 @@ const RiveAnimation = () => {
     stateMachines: "State Machine 1",
     layout: new Layout({
       fit: Fit.Contain,
-      alignment: Alignment.Center,
-    }),
+      alignment: Alignment.Center
+    })
   });
 
   return (
-    <div className="aspect-video w-full -ml-[120px] pt-0">
+    <div className="aspect-video w-full pt-0">
       <RiveComponent />
     </div>
   );
