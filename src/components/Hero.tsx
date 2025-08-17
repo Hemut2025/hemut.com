@@ -1,7 +1,5 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useRive, Layout, Fit, Alignment } from "@rive-app/react-canvas";
 // adding comment
 const Hero = () => {
   return (
@@ -38,12 +36,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Rive Animation */}
-        <div className="w-full flex justify-end items-center overflow-hidden -mt-20 py-0">
-          <div className="max-w-3xl w-full">
-            <RiveAnimation />
-          </div>
-        </div>
+        {/* Truck moved to its own section */}
 
         {/* Dashboard Preview */}
         {/* <div className="mt-16 relative max-w-5xl mx-auto">
@@ -63,23 +56,6 @@ const Hero = () => {
   );
 };
 
-const RiveAnimation = () => {
-  const { rive, RiveComponent } = useRive({
-    src: "/truck.riv",
-    autoplay: true,
-    artboard: "Artboard",
-    stateMachines: "State Machine 1",
-    layout: new Layout({
-      fit: Fit.Contain,
-      alignment: Alignment.Center
-    })
-  });
-
-  return (
-    <div className="aspect-video w-full pt-0">
-      <RiveComponent />
-    </div>
-  );
-};
+// Truck animation moved to its own section component
 
 export default Hero;
