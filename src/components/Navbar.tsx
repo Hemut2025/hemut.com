@@ -27,9 +27,7 @@ const Navbar = () => {
           <a href="#pricing" className="nav-link">
             Pricing
           </a>
-          <a href="#about" className="nav-link">
-            About
-          </a>
+          
         </div>
 
         {/* Action Buttons */}
@@ -95,13 +93,7 @@ const Navbar = () => {
             >
               Pricing
             </a>
-            <a
-              href="#about"
-              className="nav-link py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
-            </a>
+            
             <div className="flex flex-col space-y-3 pt-2">
               <a
                 href="https://app.hemut.com"

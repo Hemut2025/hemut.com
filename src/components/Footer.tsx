@@ -72,22 +72,8 @@ const Footer = () => {
                   Pricing
                 </a>
               </li>
-              <li>
-                <a
-                  href="#about"
-                  className="text-hemut-offwhite/70 hover:text-hemut-yellow transition-colors"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="text-hemut-offwhite/70 hover:text-hemut-yellow transition-colors"
-                >
-                  Contact
-                </a>
-              </li>
+              
+              
             </ul>
           </div>
 
