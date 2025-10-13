@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 
 const pricingPlans = [
   {
-    name: "Starter",
-    description: "Starting tier for small fleets",
-    price: "$100",
-    unit: "per truck per month",
+    name: "Command",//"Starter",
+    description: "",//"Starting tier for small fleets",
+    price: "",//"$100",
+    unit: "",//"per truck per month",
     features: [
       "Automatic Load Booking",
       "Full Driver/Dispatcher Communication",
