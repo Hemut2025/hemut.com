@@ -13,8 +13,7 @@ const Footer = () => {
               <HemutLogo color="#FFC300" width="100" />
             </div>
             <p className="text-hemut-offwhite/70 mb-6">
-              AI-powered solutions for modern logistics and transportation
-              management.
+              Modern solutions for logistics and transportation management.
             </p>
             <div className="space-y-3">
               <div className="flex items-start">
@@ -50,30 +49,12 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#features"
-                  className="text-hemut-offwhite/70 hover:text-hemut-yellow transition-colors"
-                >
-                  Features
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#benefits"
-                  className="text-hemut-offwhite/70 hover:text-hemut-yellow transition-colors"
-                >
-                  Benefits
-                </a>
-              </li>
-              <li>
-                <a
                   href="#pricing"
                   className="text-hemut-offwhite/70 hover:text-hemut-yellow transition-colors"
                 >
                   Pricing
                 </a>
               </li>
-              
-              
             </ul>
           </div>
 
@@ -125,26 +106,12 @@ const Footer = () => {
           </div>
           */}
 
-          {/* Newsletter */}
+          {/* Contact */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">Stay Updated</h3>
+            <h3 className="text-white font-bold text-lg mb-6">Get in Touch</h3>
             <p className="text-hemut-offwhite/70 mb-4">
-              Subscribe to our newsletter for the latest updates.
+              Reach out to learn more about our solutions.
             </p>
-            <form className="space-y-3">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full px-4 py-2 rounded-lg bg-hemut-blue/20 border border-hemut-blue/30 text-white placeholder:text-hemut-offwhite/50 focus:outline-none focus:ring-2 focus:ring-hemut-yellow/50"
-                required
-              />
-              <button
-                type="submit"
-                className="w-full px-4 py-2 bg-hemut-yellow text-hemut-darkblue font-medium rounded-lg hover:bg-hemut-brightyellow transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 

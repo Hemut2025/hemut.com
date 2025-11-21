@@ -8,19 +8,17 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
           <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-hemut-blue/30 border border-hemut-blue/40">
             <p className="text-sm font-medium text-hemut-yellow">
-              AI-Powered Logistics Copilot
+              Logistics Management Platform
             </p>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Transform Fleet Operations with{" "}
-            <span className="gradient-text">AI Automation</span>
+            Modern Solutions for{" "}
+            <span className="gradient-text">Logistics Operations</span>
           </h1>
 
           <p className="text-lg md:text-xl text-hemut-offwhite/90 mb-8 max-w-3xl">
-            A fast new way to optimize fleets, track loads, and automate
-            invoicing with intelligent AI agents that streamline your logistics
-            operations.
+            Comprehensive platform designed to help logistics companies manage their operations more effectively.
           </p>
 
           <div className="flex justify-center mt-0 pb-0 mb-0">

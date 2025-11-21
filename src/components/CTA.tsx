@@ -16,8 +16,7 @@ const CTA = () => {
           </h2>
 
           <p className="text-xl text-hemut-offwhite/80 mb-10 max-w-2xl mx-auto">
-            Join forward-thinking logistics companies using AI to streamline
-            operations, reduce costs, and improve driver satisfaction.
+            Get started today and see how we can help improve your logistics operations.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">

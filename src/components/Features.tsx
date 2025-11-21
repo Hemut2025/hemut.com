@@ -1,43 +1,45 @@
 import { Truck, BarChart3, PenLine, Clock, Zap, Database } from "lucide-react";
 
-const features = [
-  {
-    icon: <Truck className="h-8 w-8 text-hemut-yellow" />,
-    title: "Fleet Management",
-    description:
-      "Intelligent scheduling powered by real-time data analysis and operational parameters.",
-  },
-  {
-    icon: <Clock className="h-8 w-8 text-hemut-yellow" />,
-    title: "Load Tracking",
-    description:
-      "Live load tracking with routing, ETAs, and more for complete visibility.",
-  },
-  {
-    icon: <Zap className="h-8 w-8 text-hemut-yellow" />,
-    title: "Drag & Drop Load",
-    description:
-      "Automated Rate Confirmation parsing with intelligent data extraction and validation.",
-  },
-  {
-    icon: <PenLine className="h-8 w-8 text-hemut-yellow" />,
-    title: "Automated Invoicing",
-    description:
-      "AI Document Recognition & Validation to streamline your billing process.",
-  },
-  {
-    icon: <Database className="h-8 w-8 text-hemut-yellow" />,
-    title: "Integrated Accounting",
-    description:
-      "Automated Reconciliation & Reporting. Simple to migrate and integrate.",
-  },
-  {
-    icon: <BarChart3 className="h-8 w-8 text-hemut-yellow" />,
-    title: "Reporting & Analytics",
-    description:
-      "Comprehensive insights and analytics to optimize your operations.",
-  },
-];
+// const features = [
+//   {
+//     icon: <Truck className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Fleet Management",
+//     description:
+//       "Intelligent scheduling powered by real-time data analysis and operational parameters.",
+//   },
+//   {
+//     icon: <Clock className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Load Tracking",
+//     description:
+//       "Live load tracking with routing, ETAs, and more for complete visibility.",
+//   },
+//   {
+//     icon: <Zap className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Drag & Drop Load",
+//     description:
+//       "Automated Rate Confirmation parsing with intelligent data extraction and validation.",
+//   },
+//   {
+//     icon: <PenLine className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Automated Invoicing",
+//     description:
+//       "AI Document Recognition & Validation to streamline your billing process.",
+//   },
+//   {
+//     icon: <Database className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Integrated Accounting",
+//     description:
+//       "Automated Reconciliation & Reporting. Simple to migrate and integrate.",
+//   },
+//   {
+//     icon: <BarChart3 className="h-8 w-8 text-hemut-yellow" />,
+//     title: "Reporting & Analytics",
+//     description:
+//       "Comprehensive insights and analytics to optimize your operations.",
+//   },
+// ];
+
+const features = [];
 
 const Features = () => {
   return (
@@ -48,12 +50,10 @@ const Features = () => {
       <div className="container-custom pt-0">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            All-In-One Copilot{" "}
-            <span className="gradient-text">Powered by AI Agents</span>
+            <span className="gradient-text">Modern Logistics</span> Solutions
           </h2>
           <p className="text-hemut-offwhite/80 max-w-2xl mx-auto">
-            Empower your team with intelligent tools that streamline workflows,
-            enhance decision-making, and eliminate repetitive tasks.
+            Streamline your operations with our comprehensive platform designed for today's logistics challenges.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     quote:
-      "From quoting loads to tracking deliveries, Hemut has brought it all under one unified platform. It’s helping us focus less on managing systems and more on serving our customers",
+      "Hemut has been a great partner for our business. The team is responsive and the solution has made a real difference in how we operate.",
     author: "Paul Singh",
     title: "CEO, Lynx Freight Inc.",
     avatar: "/placeholder.svg"
@@ -44,8 +44,7 @@ const Testimonials = () => {
             <span className="gradient-text">Leading Logistics Companies</span>
           </h2>
           <p className="text-hemut-offwhite/80 max-w-2xl mx-auto">
-            See what our customers are saying about our AI-powered fleet
-            management solution.
+            See what our customers are saying about working with us.
           </p>
         </div>
 

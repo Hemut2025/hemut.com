@@ -8,11 +8,10 @@ const pricingPlans = [
     price: "",//"$100",
     unit: "",//"per truck per month",
     features: [
-      "Automatic Load Booking",
-      "Full Driver/Dispatcher Communication",
-      "Live Load Tracking & Alerts",
-      "ELD Telematics & Driver Logs",
-      "Email & Messaging Support"
+      "Core platform features",
+      "Communication tools",
+      "Tracking capabilities",
+      "Support included"
     ],
     cta: "Get Started",
     popular: false
@@ -60,8 +59,7 @@ const Pricing = () => {
             Simple, <span className="gradient-text">Transparent Pricing</span>
           </h2>
           <p className="text-hemut-offwhite/80 max-w-2xl mx-auto">
-            Choose the plan that fits your fleet size and needs. All plans
-            include our core AI-powered features.
+            Choose the plan that fits your business needs.
           </p>
         </div>
 
