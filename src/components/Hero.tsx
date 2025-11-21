@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
           <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-hemut-blue/30 border border-hemut-blue/40">
             <p className="text-sm font-medium text-hemut-yellow">
-              AI-Powered Transport Management System
+              AI-Powered Logistics Copilot
             </p>
           </div>
 

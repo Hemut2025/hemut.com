@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "With Hemut as our TMS copilot, we’ve cut hours of scheduling and tracking every week. It’s simple to use and fits right into how we already work",
+      "With Hemut as our Logistics copilot, we’ve cut hours of scheduling and tracking every week. It’s simple to use and fits right into how we already work",
     author: "Harpreet Singh",
     title: "CEO, Sahib Express",
     avatar: "/placeholder.svg"

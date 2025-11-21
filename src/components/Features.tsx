@@ -48,7 +48,7 @@ const Features = () => {
       <div className="container-custom pt-0">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            All-In-One TMS{" "}
+            All-In-One Copilot{" "}
             <span className="gradient-text">Powered by AI Agents</span>
           </h2>
           <p className="text-hemut-offwhite/80 max-w-2xl mx-auto">
